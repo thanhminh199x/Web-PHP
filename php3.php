@@ -18,6 +18,7 @@
 </pre>
 <?php
 
+
 $d = date('D');
 echo " <br> thứ hiện tại là : ". $d;
 switch ($d){
