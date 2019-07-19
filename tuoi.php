@@ -2,7 +2,7 @@
 
 $tuoiCon = 0;
 
-while (kiemTraTuoi($tuoiCon) == false) {
+while  (kiemTraTuoi($tuoiCon) == false) {
     $tuoiCon++;
 }
 
@@ -22,5 +22,6 @@ function kiemTraTuoi($tuoiCon)
             return true;
         }
     }
+    return false;
 
 }
